@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtest", "gtest.vcproj", "{34177E9D-83EA-2364-6DF0-86DC24F37175}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5A6D72AC-E180-AD56-415D-8200CB818408} = {5A6D72AC-E180-AD56-415D-8200CB818408}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtest_main", "gtest_main.vcproj", "{1BD0FE09-4E22-085B-56F4-C87C9C22E1A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtest_prod", "gtest_prod.vcproj", "{5A6D72AC-E180-AD56-415D-8200CB818408}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Optdebug|Win32 = Optdebug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BD0FE09-4E22-085B-56F4-C87C9C22E1A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1BD0FE09-4E22-085B-56F4-C87C9C22E1A3}.Debug|Win32.Build.0 = Debug|Win32
+		{1BD0FE09-4E22-085B-56F4-C87C9C22E1A3}.Optdebug|Win32.ActiveCfg = Optdebug|Win32
+		{1BD0FE09-4E22-085B-56F4-C87C9C22E1A3}.Optdebug|Win32.Build.0 = Optdebug|Win32
+		{1BD0FE09-4E22-085B-56F4-C87C9C22E1A3}.Release|Win32.ActiveCfg = Release|Win32
+		{1BD0FE09-4E22-085B-56F4-C87C9C22E1A3}.Release|Win32.Build.0 = Release|Win32
+		{34177E9D-83EA-2364-6DF0-86DC24F37175}.Debug|Win32.ActiveCfg = Debug|Win32
+		{34177E9D-83EA-2364-6DF0-86DC24F37175}.Debug|Win32.Build.0 = Debug|Win32
+		{34177E9D-83EA-2364-6DF0-86DC24F37175}.Optdebug|Win32.ActiveCfg = Optdebug|Win32
+		{34177E9D-83EA-2364-6DF0-86DC24F37175}.Optdebug|Win32.Build.0 = Optdebug|Win32
+		{34177E9D-83EA-2364-6DF0-86DC24F37175}.Release|Win32.ActiveCfg = Release|Win32
+		{34177E9D-83EA-2364-6DF0-86DC24F37175}.Release|Win32.Build.0 = Release|Win32
+		{5A6D72AC-E180-AD56-415D-8200CB818408}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5A6D72AC-E180-AD56-415D-8200CB818408}.Debug|Win32.Build.0 = Debug|Win32
+		{5A6D72AC-E180-AD56-415D-8200CB818408}.Optdebug|Win32.ActiveCfg = Optdebug|Win32
+		{5A6D72AC-E180-AD56-415D-8200CB818408}.Optdebug|Win32.Build.0 = Optdebug|Win32
+		{5A6D72AC-E180-AD56-415D-8200CB818408}.Release|Win32.ActiveCfg = Release|Win32
+		{5A6D72AC-E180-AD56-415D-8200CB818408}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal

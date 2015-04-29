@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Optdebug|Win32">
+      <Configuration>Optdebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{79FA7B2F-DC88-D716-7C5E-A5097EB0AF24}</ProjectGuid>
+    <RootNamespace>js2c</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+    <OutDir>..\..\build\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+    <OutDir>..\..\build\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+    <OutDir>..\..\build\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\src\apinatives.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\array-iterator.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\array.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\arraybuffer.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\collection-iterator.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\collection.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\date.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\debug-debugger.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\generator.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\harmony-array.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\harmony-classes.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\harmony-string.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\harmony-tostring.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\harmony-typedarray.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\i18n.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\json.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\liveedit-debugger.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\macros.py">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\math.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\messages.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\mirror-debugger.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\object-observe.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\promise.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\proxy.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\regexp.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\runtime.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\string-iterator.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\string.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\symbol.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\third_party\fdlibm\fdlibm.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\typedarray.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\uri.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\v8natives.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\..\src\weak-collection.js">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <CustomBuild Include="..\js2c.py">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\src\object-observe.js;..\..\src\apinatives.js;..\..\src\harmony-classes.js;..\..\src\runtime.js;..\..\src\mirror-debugger.js;..\..\src\third_party\fdlibm\fdlibm.js;..\..\src\array.js;..\..\src\collection-iterator.js;..\..\tools\js2c.py;..\..\src\debug-debugger.js;..\..\src\i18n.js;..\..\src\harmony-array.js;..\..\src\symbol.js;..\..\src\string.js;..\..\src\proxy.js;..\..\src\uri.js;..\..\src\string-iterator.js;..\..\src\date.js;..\..\src\liveedit-debugger.js;..\..\src\collection.js;..\..\src\array-iterator.js;..\..\src\json.js;..\..\src\messages.js;..\..\src\regexp.js;..\..\src\harmony-string.js;..\..\src\arraybuffer.js;..\..\src\math.js;..\..\src\harmony-typedarray.js;..\..\src\v8natives.js;..\..\src\macros.py;..\..\src\harmony-tostring.js;..\..\src\typedarray.js;..\..\src\weak-collection.js;..\..\src\promise.js;..\..\src\generator.js;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">call "$(ProjectDir)..\..\third_party\cygwin\setup_env.bat" &amp;&amp; set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"../../tools/js2c.py\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/libraries.cc\" \"CORE\" \"off\" \"../../src/runtime.js\" \"../../src/v8natives.js\" \"../../src/symbol.js\" \"../../src/array.js\" \"../../src/string.js\" \"../../src/uri.js\" \"../../src/third_party/fdlibm/fdlibm.js\" \"../../src/math.js\" \"../../src/apinatives.js\" \"../../src/date.js\" \"../../src/regexp.js\" \"../../src/arraybuffer.js\" \"../../src/typedarray.js\" \"../../src/generator.js\" \"../../src/object-observe.js\" \"../../src/collection.js\" \"../../src/weak-collection.js\" \"../../src/collection-iterator.js\" \"../../src/promise.js\" \"../../src/messages.js\" \"../../src/json.js\" \"../../src/array-iterator.js\" \"../../src/string-iterator.js\" \"../../src/debug-debugger.js\" \"../../src/mirror-debugger.js\" \"../../src/liveedit-debugger.js\" \"../../src/macros.py\" \"../../src/i18n.js\""
+set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"../../tools/js2c.py\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/experimental-libraries.cc\" \"EXPERIMENTAL\" \"off\" \"../../src/macros.py\" \"../../src/proxy.js\" \"../../src/generator.js\" \"../../src/harmony-string.js\" \"../../src/harmony-array.js\" \"../../src/harmony-tostring.js\" \"../../src/harmony-typedarray.js\" \"../../src/harmony-classes.js\""</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">js2c, and also js2c_experimental</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)obj\global_intermediate\libraries.cc;$(OutDir)obj\global_intermediate\experimental-libraries.cc;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">..\..\src\object-observe.js;..\..\src\apinatives.js;..\..\src\harmony-classes.js;..\..\src\runtime.js;..\..\src\mirror-debugger.js;..\..\src\third_party\fdlibm\fdlibm.js;..\..\src\array.js;..\..\src\collection-iterator.js;..\..\tools\js2c.py;..\..\src\debug-debugger.js;..\..\src\i18n.js;..\..\src\harmony-array.js;..\..\src\symbol.js;..\..\src\string.js;..\..\src\proxy.js;..\..\src\uri.js;..\..\src\string-iterator.js;..\..\src\date.js;..\..\src\liveedit-debugger.js;..\..\src\collection.js;..\..\src\array-iterator.js;..\..\src\json.js;..\..\src\messages.js;..\..\src\regexp.js;..\..\src\harmony-string.js;..\..\src\arraybuffer.js;..\..\src\math.js;..\..\src\harmony-typedarray.js;..\..\src\v8natives.js;..\..\src\macros.py;..\..\src\harmony-tostring.js;..\..\src\typedarray.js;..\..\src\weak-collection.js;..\..\src\promise.js;..\..\src\generator.js;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">call "$(ProjectDir)..\..\third_party\cygwin\setup_env.bat" &amp;&amp; set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"../../tools/js2c.py\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/libraries.cc\" \"CORE\" \"off\" \"../../src/runtime.js\" \"../../src/v8natives.js\" \"../../src/symbol.js\" \"../../src/array.js\" \"../../src/string.js\" \"../../src/uri.js\" \"../../src/third_party/fdlibm/fdlibm.js\" \"../../src/math.js\" \"../../src/apinatives.js\" \"../../src/date.js\" \"../../src/regexp.js\" \"../../src/arraybuffer.js\" \"../../src/typedarray.js\" \"../../src/generator.js\" \"../../src/object-observe.js\" \"../../src/collection.js\" \"../../src/weak-collection.js\" \"../../src/collection-iterator.js\" \"../../src/promise.js\" \"../../src/messages.js\" \"../../src/json.js\" \"../../src/array-iterator.js\" \"../../src/string-iterator.js\" \"../../src/debug-debugger.js\" \"../../src/mirror-debugger.js\" \"../../src/liveedit-debugger.js\" \"../../src/macros.py\" \"../../src/i18n.js\""
+set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"../../tools/js2c.py\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/experimental-libraries.cc\" \"EXPERIMENTAL\" \"off\" \"../../src/macros.py\" \"../../src/proxy.js\" \"../../src/generator.js\" \"../../src/harmony-string.js\" \"../../src/harmony-array.js\" \"../../src/harmony-tostring.js\" \"../../src/harmony-typedarray.js\" \"../../src/harmony-classes.js\""</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">js2c, and also js2c_experimental</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Optdebug|Win32'">$(OutDir)obj\global_intermediate\libraries.cc;$(OutDir)obj\global_intermediate\experimental-libraries.cc;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\src\object-observe.js;..\..\src\apinatives.js;..\..\src\harmony-classes.js;..\..\src\runtime.js;..\..\src\mirror-debugger.js;..\..\src\third_party\fdlibm\fdlibm.js;..\..\src\array.js;..\..\src\collection-iterator.js;..\..\tools\js2c.py;..\..\src\debug-debugger.js;..\..\src\i18n.js;..\..\src\harmony-array.js;..\..\src\symbol.js;..\..\src\string.js;..\..\src\proxy.js;..\..\src\uri.js;..\..\src\string-iterator.js;..\..\src\date.js;..\..\src\liveedit-debugger.js;..\..\src\collection.js;..\..\src\array-iterator.js;..\..\src\json.js;..\..\src\messages.js;..\..\src\regexp.js;..\..\src\harmony-string.js;..\..\src\arraybuffer.js;..\..\src\math.js;..\..\src\harmony-typedarray.js;..\..\src\v8natives.js;..\..\src\macros.py;..\..\src\harmony-tostring.js;..\..\src\typedarray.js;..\..\src\weak-collection.js;..\..\src\promise.js;..\..\src\generator.js;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">call "$(ProjectDir)..\..\third_party\cygwin\setup_env.bat" &amp;&amp; set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"../../tools/js2c.py\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/libraries.cc\" \"CORE\" \"off\" \"../../src/runtime.js\" \"../../src/v8natives.js\" \"../../src/symbol.js\" \"../../src/array.js\" \"../../src/string.js\" \"../../src/uri.js\" \"../../src/third_party/fdlibm/fdlibm.js\" \"../../src/math.js\" \"../../src/apinatives.js\" \"../../src/date.js\" \"../../src/regexp.js\" \"../../src/arraybuffer.js\" \"../../src/typedarray.js\" \"../../src/generator.js\" \"../../src/object-observe.js\" \"../../src/collection.js\" \"../../src/weak-collection.js\" \"../../src/collection-iterator.js\" \"../../src/promise.js\" \"../../src/messages.js\" \"../../src/json.js\" \"../../src/array-iterator.js\" \"../../src/string-iterator.js\" \"../../src/debug-debugger.js\" \"../../src/mirror-debugger.js\" \"../../src/liveedit-debugger.js\" \"../../src/macros.py\" \"../../src/i18n.js\""
+set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"../../tools/js2c.py\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/experimental-libraries.cc\" \"EXPERIMENTAL\" \"off\" \"../../src/macros.py\" \"../../src/proxy.js\" \"../../src/generator.js\" \"../../src/harmony-string.js\" \"../../src/harmony-array.js\" \"../../src/harmony-tostring.js\" \"../../src/harmony-typedarray.js\" \"../../src/harmony-classes.js\""</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">js2c, and also js2c_experimental</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)obj\global_intermediate\libraries.cc;$(OutDir)obj\global_intermediate\experimental-libraries.cc;%(Outputs)</Outputs>
+    </CustomBuild>
+    <None Include="v8.gyp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

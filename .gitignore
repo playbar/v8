@@ -10,12 +10,9 @@
 *.pyc
 *.scons*
 *.sdf
-*.sln
 *.so
 *.suo
 *.user
-*.vcproj
-*.vcxproj
 *.vcxproj.filters
 *.xcodeproj
 #*#
@@ -86,3 +83,5 @@ gtags.files
 turbo*.cfg
 turbo*.dot
 turbo*.json
+third_party/cygwin/
+*.opensdf
